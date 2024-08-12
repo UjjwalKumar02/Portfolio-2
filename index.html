@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="root">
+    <nav>
+      <h3 class="logo">Ujjwal.dev</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="hide"><i class="fa-solid fa-bars" style="color: #000000;"></i></li>
+        </ul>
+    </nav>
+    <div class="mobile-nav closed-menu">
+      <span class="m-nav-hide">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="tabler-icon tabler-icon-x">
+          <path d="M18 6l-12 12"></path>
+          <path d="M6 6l12 12"></path>
+        </svg>
+      </span>
+      <ul>
+        <li id="li-hide1"><a href="#home">Home</a></li>
+        <li id="li-hide2"><a href="#about">About</a></li>
+        <li id="li-hide3"><a href="#projects">Projects</a></li>
+        <li id="li-hide4"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="content">
+          <div class="hero-main">
+            <div class="hero-text">
+              <h1>Front-End React <br>Developer</h1>
+              <img src="waving-hand.png" alt="waving_hand">
+              <p>Hi, I'm Ujjwal Kumar. A passionate Front-end React <br class="hiden">Developer based in Dehri, India.
+              </p>
+              <span>
+                <a href="https://www.linkedin.com/in/ujjwal-kumar-958ba6272">
+                  <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                </a>
+                <a href="https://github.com/UjjwalKumar02">
+                  <i class="fa-brands fa-github" style="color: #000000;"></i>
+                </a>
+              </span>
+            </div>
+            <div class="hero-img"></div>
+          </div>
+          <div class="skills">
+            <p>Tech Stack</p>
+            <div class="logos">
+              <ul>
+                <li><img src="logos/html.jpg" alt="skill-icon"></li>
+                <li><img src="logos/css.png" alt="skill-icon"></li>
+                <li><img src="logos/js.jpg" alt="skill-icon"></li>
+                <li><img src="logos/react-logo.jpg" alt="skill-icon"></li>
+                <li><img src="logos/tailwind-logo.png" alt="skill-icon"></li>
+                <li><img src="logos/sass-logo.png" alt="skill-icon"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="img-side">
+            <img src="logos/about-pic.webp" alt="" class="img-side_main-img">
+          </div>
+          <div class="text-side">
+            <h3>ABOUT ME</h3>
+            <h4>Front-end Developer
+              <br>
+              based in Dehri, India
+            </h4>
+            <p>Hey, my name is Ujjwal, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX
+              for my users.<br><br>My main stack currently is React/Next.js in combination with Tailwind CSS and
+              TypeScript.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="new-projects">New projects coming soon.. 🤠</h2>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-title">
+            <p>CONTACT</p>
+            <h3>Don't be shy! Hit me up! 👇</h3>
+          </div>
+          <div class="contact-icons">
+            <div class="contact-icon-box">
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-map-search">
+                  <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path>
+                  <path d="M9 4v13"></path>
+                  <path d="M15 7v5"></path>
+                  <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                  <path d="M20.2 20.2l1.8 1.8"></path>
+                </svg></span>
+              <div class="contact_info">
+                <h3>Location</h3>
+                <p>Dehri, India</p>
+              </div>
+            </div>
+            <div class="contact-icon-box">
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-mail">
+                  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                  <path d="M3 7l9 6l9 -6"></path>
+                </svg></span>
+              <div class="contact_info">
+                <h3>Mail</h3>
+                <a href="mailto:kumarujjwaldos@gmail.com">kumarujjwaldos@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>Copyright © 2024. All rights are reserved</h3>
+          <div class="footer_socials">
+            <a href="https://www.linkedin.com/in/ujjwal-kumar-958ba6272">
+              <i class="fa-brands fa-linkedin" style="color: #fff;"></i>
+            </a>
+            <a href="https://github.com/UjjwalKumar02">
+              <i class="fa-brands fa-github" style="color: #fff;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
